@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://img.freepik.com/free-photo/cascade-boat-clean-china-natural-rural_1417-1356.jpg?w=900&t=st=1703755122~exp=1703755722~hmac=da5f5c5a1762d4d3a9be1e7d96c2158af6d98f8059fa8d643319ec11d147055f");
+    background-size: cover;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+
+}
+.clock{
+    display: flex;
+}
+.class div{
+    margin: 15px;
+
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background: slateblue;
+    opacity: .8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+
+}
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: darkblue;
+    
+}
+.clock #ampm{
+    bottom: 0;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: green;
+
+}
